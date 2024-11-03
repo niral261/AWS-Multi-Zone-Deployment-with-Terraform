@@ -57,11 +57,17 @@ Type yes when prompted to confirm.
 
 ## Project Structure
 .
+
 ├── main.tf               # Main Terraform configuration file
+
 ├── variables.tf          # Input variables for AWS settings and resources
+
 ├── outputs.tf            # Output values such as Load Balancer DNS
+
 ├── provider.tf           # AWS provider configuration
+
 ├── modules/              # Optional directory for custom modules
+
 └── README.md             # Project documentation
 
 ## Usage
@@ -72,4 +78,5 @@ Type yes when prompted to confirm.
 ## Cleanup
 To delete all resources created by this project, run:
   - terraform destroy
+
 Type yes to confirm. This will remove all infrastructure created by Terraform, including EC2 instances, subnets, the load balancer, and the S3 bucket.
