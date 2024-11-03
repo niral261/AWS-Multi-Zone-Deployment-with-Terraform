@@ -14,9 +14,13 @@ Cleanup
 
 ## Overview
 In this project, we use Terraform as our Infrastructure as Code (IaC) tool to automate the deployment of AWS resources. The setup includes:
+
   A VPC with public subnets in multiple availability zones
+  
   Two EC2 instances, each deployed in a different availability zone
+  
   An Application Load Balancer to distribute traffic between the instances
+  
   An Amazon S3 bucket for storing static assets or data
 This configuration enhances application availability and reliability.
 
