@@ -29,7 +29,7 @@ This configuration enhances application availability and reliability.
 ![image](https://github.com/user-attachments/assets/2992f944-5dd4-4723-91b8-907f5d3cb79d)
 
 ### Key Components
-  VPC: Defines the network for our resources, ensuring a secure environment for the application.
+* VPC: Defines the network for our resources, ensuring a secure environment for the application.
   Subnets: Public subnets in different availability zones for improved fault tolerance.
   EC2 Instances: Hosts for the web application, deployed across multiple zones.
   Load Balancer: Distributes incoming traffic across the EC2 instances for load balancing.
